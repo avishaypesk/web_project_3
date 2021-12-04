@@ -1,0 +1,16 @@
+.button {
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  background: #0278fe;
+  width: fit-content;
+  padding: 13px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.button:hover {
+  background: #0063d2;
+}

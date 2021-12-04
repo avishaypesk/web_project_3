@@ -1,5 +1,4 @@
 .places {
   max-width: 987px;
-  margin: 92px 0 0;
-  margin-left: calc((100vw - 984px) / 2);
+  margin: 92px auto 0;
 }
