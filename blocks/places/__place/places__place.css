@@ -1,0 +1,9 @@
+.places__place {
+  display: grid;
+  grid-template-areas:
+    "title artist"
+    "image content"
+    "button .";
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+}
