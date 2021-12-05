@@ -3,12 +3,20 @@
   display: grid;
   grid-template-areas:
     "title artist"
-    "image content"
-    "button content";
+    "image content";
+
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
 
 .places__place:first-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    margin-top: 72px;
+    grid-column-gap: 28px;
+    grid-row-gap: 46px;
+  }
 }

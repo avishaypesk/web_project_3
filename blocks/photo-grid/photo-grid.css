@@ -3,3 +3,9 @@
   justify-content: center;
   margin: 118px auto 0;
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    margin: 90px auto 0;
+  }
+}
