@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 768px) {
   .places__paragraph {
-    max-width: 352px;
     font-size: 16px;
   }
 }

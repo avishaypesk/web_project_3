@@ -7,18 +7,14 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: relative;
   z-index: 1;
 }
 
-.cover:hover .cover__overlay {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 580px) {
   .cover {
-    min-height: initial;
-    height: 254px;
+    min-height: 254px;
   }
 }

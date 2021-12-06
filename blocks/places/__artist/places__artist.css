@@ -1,19 +1,6 @@
 .places__artist {
-  max-width: 456px;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
-
-@media screen and (max-width: 768px) {
-  .places__artist {
-    max-width: 316px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .places__artist {
-    max-width: 288px;
-  }
 }

@@ -32,7 +32,7 @@
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_place/button_place_cover.css);
+@import url(../blocks/button/_size/button_size_small.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);

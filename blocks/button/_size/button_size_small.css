@@ -1,10 +1,10 @@
-.button_place_cover {
+.button_size_small {
   margin: 32px 0 0;
 }
 
 @media screen and (max-width: 580px) {
-  .button_place_cover {
-    margin-top: 16px;
+  .button_size_small {
+    margin: 16px 0 0;
     max-width: 97px;
     padding: 13px 20px;
   }
