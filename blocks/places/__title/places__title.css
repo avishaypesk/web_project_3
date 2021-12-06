@@ -8,9 +8,17 @@
 
 @media screen and (max-width: 768px) {
   .places__title {
-    align-self: end;
     max-width: 340px;
     font-size: 42px;
     line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .places__title {
+    width: 288px;
+    text-align: left;
+    font-size: 32px;
+    line-height: 1.09;
   }
 }

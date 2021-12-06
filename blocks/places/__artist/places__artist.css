@@ -11,3 +11,9 @@
     max-width: 316px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .places__artist {
+    max-width: 288px;
+  }
+}

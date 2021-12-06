@@ -5,10 +5,18 @@
   margin-left: calc((100vw - 984px) / 2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
   .intro {
     max-width: 720px;
     max-height: 548px;
     margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .intro {
+    max-width: 288px;
+    max-height: fit-content;
+    margin-top: 64px;
   }
 }
