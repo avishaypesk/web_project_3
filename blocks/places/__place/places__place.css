@@ -1,7 +1,9 @@
 .places__place {
+  position: relative;
   margin: 80px auto 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: 1fr minmax(548px, min-content);
   grid-template-areas:
     "title artist"
     "image content"
@@ -17,6 +19,7 @@
 
 @media screen and (max-width: 768px) {
   .places__place {
+    grid-template-columns: 1fr 1fr;
     max-width: 720px;
     margin-top: 72px;
     grid-column-gap: 28px;
@@ -26,6 +29,7 @@
 
 @media screen and (max-width: 580px) {
   .places__place {
+    margin-top: 50px;
     grid-row-gap: 30px;
     align-items: center;
     display: flex;

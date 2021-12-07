@@ -1,6 +1,8 @@
 .places__image {
   max-width: 460px;
   max-height: 460px;
+  grid-row: 2/3;
+  grid-column: 1;
 }
 
 @media screen and (max-width: 768px) {

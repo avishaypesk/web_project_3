@@ -5,6 +5,7 @@
   background-image: url(../../images/footer_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,6 +16,7 @@
 
 @media screen and (max-width: 580px) {
   .cover {
+    margin-top: 64px;
     min-height: 254px;
   }
 }

@@ -4,11 +4,14 @@
   color: inherit;
   background: #0278fe;
   width: fit-content;
+  height: fit-content;
   padding: 13px 20px;
   border-radius: 4px;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  grid-row: 2/3;
+  grid-column: 1;
 }
 
 .button:hover {

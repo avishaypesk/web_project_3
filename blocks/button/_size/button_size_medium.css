@@ -1,0 +1,17 @@
+.button_size_medium {
+  position: absolute;
+  top: 528px;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .button {
+    top: unset;
+    position: relative;
+  }
+}
