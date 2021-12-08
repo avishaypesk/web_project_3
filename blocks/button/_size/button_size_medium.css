@@ -1,6 +1,6 @@
 .button_size_medium {
-  position: absolute;
-  top: 528px;
+  position: relative;
+  top: 508px;
 }
 
 @media screen and (max-width: 768px) {
@@ -12,6 +12,5 @@
 @media screen and (max-width: 580px) {
   .button {
     top: unset;
-    position: relative;
   }
 }

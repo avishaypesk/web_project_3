@@ -4,3 +4,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 580px) {
+  .places__artist {
+    margin: 0 16px 0;
+  }
+}

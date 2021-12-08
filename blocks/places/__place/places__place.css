@@ -1,13 +1,12 @@
 .places__place {
-  position: relative;
   margin: 80px auto 0;
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-template-rows: 1fr minmax(548px, min-content);
+  grid-template-rows: 1fr minmax(558px, min-content);
+
   grid-template-areas:
     "title artist"
-    "image content"
-    "button .";
+    "image .";
 
   grid-column-gap: 40px;
   grid-row-gap: 48px;
@@ -20,6 +19,7 @@
 @media screen and (max-width: 768px) {
   .places__place {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr minmax(458px, min-content);
     max-width: 720px;
     margin-top: 72px;
     grid-column-gap: 28px;
