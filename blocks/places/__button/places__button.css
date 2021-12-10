@@ -1,0 +1,15 @@
+.places__button {
+  margin-top: 508px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__button {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .places__button {
+    margin-top: 0;
+  }
+}
